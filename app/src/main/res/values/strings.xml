@@ -14,6 +14,11 @@
     <string name="already_have_acct">Already have an account?</string>
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password2">Forgot Password?</string>
     <string name="dont_have_acct">Don\'t have an account?</string>
     <string name="register_now">Register Now</string>
+    <string name="enter_email">Please enter your registered email to reset your password.</string>
+    <string name="recover_password">Recover Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

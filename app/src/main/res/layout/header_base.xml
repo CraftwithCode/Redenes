@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignUpActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
@@ -22,7 +23,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SignUpActivity"
         android:orientation="vertical">
 
         <LinearLayout
@@ -36,7 +36,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="6"
-            android:background="@drawable/background_white">
+            android:background="@drawable/background_white"
+            android:paddingStart="32dp"
+            android:paddingTop="32dp"
+            android:paddingEnd="32dp">
 
         </LinearLayout>
 
