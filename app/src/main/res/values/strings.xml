@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Redenes</string>
+    <string name="icon">An icon</string>
+    <string name="create_account">Create an account</string>
+    <string name="full_name">Full Name</string>
+    <string name="john_doe">John Doe</string>
+    <string name="email_id">Email ID</string>
+    <string name="email_ex">abc@hotmail.com</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_ex">********</string>
+    <string name="register">Register</string>
+    <string name="already_have_acct">Already have an account?</string>
+    <string name="login">Login</string>
 </resources>
