@@ -1,19 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/ic_bg_home1"
+    android:id="@+id/main">
 
-    <TextView
-        android:id="@+id/hello"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/spinner_bg">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bar"
+        android:paddingBottom="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="8dp"
+        android:id="@+id/bottom_nav"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_home_sel"
+            android:id="@+id/one"
+            android:onClick="load"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_list"
+            android:id="@+id/two"
+            android:onClick="load"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/menu_icon"
+            android:id="@+id/three"
+            android:onClick="load"/>
+        <ImageView
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_group"
+            android:onClick="load"/>
+        <ImageView
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/ic_management"
+            android:onClick="load"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

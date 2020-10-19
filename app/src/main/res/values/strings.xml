@@ -17,7 +17,8 @@
     <string name="forgot_password2">Forgot Password?</string>
     <string name="dont_have_acct">Don\'t have an account?</string>
     <string name="register_now">Register Now</string>
-    <string name="enter_email">Please enter your registered email to reset your password.</string>
+    <string name="enter_email">Please enter your registered email to reset \n your password.</string>
+    <string name="enter_new_password">Please enter your new password</string>
     <string name="recover_password">Recover Password</string>
     <string name="one_time_password">One Time Password</string>
     <string name="type_ver_code">Please type verification code</string>
@@ -26,4 +27,35 @@
     <string name="three_mins">3:00</string>
     <string name="resend">Resend</string>
     <string name="didnt_receive_code">Didn\'t receive code?</string>
+    <string name="change_password">Change Password</string>
+    <string name="update">Update</string>
+    <string name="calendar">Calendar</string>
+    <string name="status">Status</string>
+    <string name="weather">Weather</string>
+    <string name="contacts">Contacts</string>
+    <string name="resources">Resources</string>
+    <string name="gps">GPS</string>
+    <string name="equipment">Equipment</string>
+    <string name="daily">Daily</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="training">Training</string>
+    <string name="ics">ICS</string>
+    <string name="audio">Audio</string>
+    <string name="e_trigger">E-trigger</string>
+    <string name="incidents">Incidents</string>
+    <string name="new_incidents">New Incidents</string>
+    <string name="messaging">Messaging</string>
+    <string name="neighbouring">Neighbouring</string>
+    <string name="will_richards">Will Richards</string>
+    <string name="no">818.237.6266</string>
+    <string name="add1">1234 Main Street</string>
+    <string name="add2">Los Angeles</string>
+    <string name="logo">logo</string>
+
+
+    <string-array name="spinner_options">
+        <item>Lorem Ipsum Dummy Text</item>
+        <item>Lorem Ipsum Dummy Text</item>
+    </string-array>
 </resources>

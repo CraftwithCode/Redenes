@@ -13,7 +13,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.content, new OneTimePasswordFragment())
+                .replace(R.id.content, new ForgotPasswordFragment())
                 .commit();
     }
 }
